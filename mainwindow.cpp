@@ -52,7 +52,7 @@ void MainWindow::system_init()
     statusLabel->setFrameShape(QFrame::WinPanel); // 设置标签形状
     statusLabel->setFrameShadow(QFrame::Sunken); // 设置标签阴影
     ui->statusbar->addWidget(statusLabel);
-    statusLabel->setText(tr("所属人： 周孝宗，钟雨彬，刘茂安"));
+    statusLabel->setText(tr("所属人：Xiaozhoua"));
     statusLabel->setStyleSheet("color: white");
     statusBar()->setStyleSheet("background-color : rgb(30,30,30)");
 
@@ -133,7 +133,7 @@ void MainWindow::plotCustom(QByteArray info)
                 this->Ptext.clear();
                 this->XData.clear();
                 this->YData.clear();
-                // 清楚画布
+                // 清除画布
                 ui->customPlot->clearGraphs();
                 ui->customPlot->legend->setVisible(false);
                 ui->customPlot->replot();
