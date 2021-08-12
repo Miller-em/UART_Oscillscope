@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Icons/gtk-help.png</file>
+        <file>Icons/Alien 2.png</file>
+    </qresource>
+</RCC>
